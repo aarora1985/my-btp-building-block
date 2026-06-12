@@ -5,13 +5,13 @@ variable "globalaccount_subdomain" {
 
 variable "btp_username" {
   type        = string
-  description = "BTP login email"
+  description = "arora@beon.net"
   sensitive   = true
 }
 
 variable "btp_password" {
   type        = string
-  description = "BTP login password"
+  description = "Mindaugas#1985"
   sensitive   = true
 }
 
