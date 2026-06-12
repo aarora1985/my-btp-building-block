@@ -11,7 +11,7 @@ variable "btp_username" {
 
 variable "btp_password" {
   type        = string
-  description = "Mindaugas#1985"
+  description = "********"
   sensitive   = true
 }
 
