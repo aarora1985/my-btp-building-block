@@ -1,17 +1,17 @@
 variable "globalaccount_subdomain" {
   type        = string
-  description = "48ff2a30trial-ga"
+  description = "globalaccount_subdomain"
 }
 
 variable "btp_username" {
   type        = string
-  description = "arora@beon.net"
+  description = "btp_username"
   sensitive   = true
 }
 
 variable "btp_password" {
   type        = string
-  description = "********"
+  description = "btp_password"
   sensitive   = true
 }
 
