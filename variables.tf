@@ -1,6 +1,6 @@
 variable "globalaccount_subdomain" {
   type        = string
-  description = "Your BTP Global Account subdomain"
+  description = "48ff2a30trial-ga"
 }
 
 variable "btp_username" {
@@ -17,11 +17,11 @@ variable "btp_password" {
 
 variable "subaccount_name" {
   type        = string
-  description = "Name for the new BTP subaccount"
+  description = "BTP-Subaccount"
 }
 
 variable "subaccount_region" {
   type        = string
-  description = "BTP region e.g. eu10, us10"
+  description = "eu10"
   default     = "eu10"
 }
