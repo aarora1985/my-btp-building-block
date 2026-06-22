@@ -1,27 +1,15 @@
 variable "globalaccount_subdomain" {
   type        = string
-  description = "globalaccount_subdomain"
-}
-
-variable "btp_username" {
-  type        = string
-  description = "btp_username"
-  sensitive   = true
-}
-
-variable "btp_password" {
-  type        = string
-  description = "btp_password"
-  sensitive   = true
+  description = "SAP BTP Global Account Subdomain"
 }
 
 variable "subaccount_name" {
   type        = string
-  description = "BTP-Subaccount"
+  description = "BTP Subaccount Name"
 }
 
 variable "subaccount_region" {
   type        = string
-  description = "eu10"
+  description = "SAP BTP Region"
   default     = "eu10"
 }
